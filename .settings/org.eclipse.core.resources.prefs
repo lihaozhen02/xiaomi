@@ -1,4 +1,7 @@
 eclipse.preferences.version=1
+encoding//application/admin/controller/Index.php=UTF-8
+encoding//application/admin/controller/Login.php=UTF-8
+encoding//application/admin/database.php=UTF-8
 encoding//application/common.php=UTF-8
 encoding//application/config.php=UTF-8
 encoding//application/database.php=UTF-8
