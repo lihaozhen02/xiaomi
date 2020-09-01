@@ -4,7 +4,7 @@ use think\Model;
 
 /*角色表*/
 class RoleModel extends Model{
-    protected  $table = 'admin_role';
+    protected  $table = 'brary_role';
     
     /**
      * 获取角色信息(多表查询，做权限树)

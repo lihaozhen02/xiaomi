@@ -4,7 +4,7 @@ use think\Model;
 
 //菜单节点
 class NodeModel extends Model{
-     protected $table = "admin_node";
+     protected $table = "brary_node";
     
     //获取菜单
     public function getmenu($nodestr=""){

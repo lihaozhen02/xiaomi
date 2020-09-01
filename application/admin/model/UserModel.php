@@ -5,7 +5,7 @@ use think\Model;
 
 /*登录后台的所有管理员，财务，员工 用户表*/
 class UserModel extends Model{
-    protected $table = 'admin_user';
+    protected $table = 'brary_user';
     
     /**
      * 根据搜索条件获取用户列表信息
@@ -45,7 +45,7 @@ class UserModel extends Model{
             
             if(false === $result){
                 // 验证失败 输出错误信息
-               return ['code' => -1, 'data' => '', 'msg' => $this->getError()];
+                return ['code' => -1, 'data' => '', 'msg' => $this->getError()];
             }else{
                 
                 return ['code' => 1, 'data' => '', 'msg' => '添加用户成功'];
@@ -97,7 +97,7 @@ class UserModel extends Model{
      */
     public function editUser($param){
         try{
-            $result =  $this->save($param, ['id' => $param['id']]); 
+            $result =  $this->save($param, ['id' => $param['id']]);
             if(false === $result){
                 // 验证失败 输出错误信息
                 return ['code' => 0, 'data' => '', 'msg' => $this->getError()];
@@ -123,7 +123,7 @@ class UserModel extends Model{
         ];
         
         $res = $this->where($where)->find();
-
+        
         $ressult = is_null($res) ? 0 : 1;
         return $ressult;
     }
