@@ -5,10 +5,16 @@
         <meta name="author" content="order by dede58.com"/>
 		<title>小米商城</title>
 		<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+		<script src="/static/js/jquery-3.4.1.min.js"></script>
+		<script src="/static/js/index.js"></script>
 	</head>
 	<body>
 	<!-- start header -->
+	{if !empty($phone)}
+		{$phone}
+	{/if}
 		<header>
+			
 			<div class="top center">
 				<div class="left fl">
 					<ul>

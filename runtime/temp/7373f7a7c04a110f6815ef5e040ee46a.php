@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:80:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html";i:1598924930;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:80:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html";i:1599099667;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,10 +6,15 @@
         <meta name="author" content="order by dede58.com"/>
 		<title>小米商城</title>
 		<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+		<script src="/static/js/jquery-3.4.1.min.js"></script>
+		<script src="/static/js/index.js"></script>
 	</head>
 	<body>
 	<!-- start header -->
+	<?php if(!empty($phone)): ?>
+		<?php echo $phone; endif; ?>
 		<header>
+			
 			<div class="top center">
 				<div class="left fl">
 					<ul>

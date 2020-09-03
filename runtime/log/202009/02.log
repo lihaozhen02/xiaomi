@@ -12073,3 +12073,3454 @@
 [ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:36:29+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/deng.html
+[运行时间：0.012680s] [吞吐率：78.86req/s] [内存消耗：246.20kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:36:29+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html
+[运行时间：0.020459s] [吞吐率：48.88req/s] [内存消耗：170.30kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:36:41+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.019227s] [吞吐率：52.01req/s] [内存消耗：463.77kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '38',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'rtrd',
+  'ajpass' => 'drht6u',
+  'ajcode' => 'kctkk',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000982s ] mysql:host=127.0.0.1;dbname=backstagelibrary;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brary_note` [ RunTime:0.007249s ]
+[ sql ] [ SQL ] SELECT * FROM `brary_note` WHERE  `username` = 'rtrd' [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `brary_note` WHERE  `username` = 'rtrd'  AND `password` = '494e36a892ee0c35b80e73efb1929199' [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2020-09-02T18:36:43+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/deng.html
+[运行时间：0.005498s] [吞吐率：181.88req/s] [内存消耗：246.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:36:43+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html
+[运行时间：0.016318s] [吞吐率：61.28req/s] [内存消耗：170.15kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:37:39+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/deng.html
+[运行时间：0.021104s] [吞吐率：47.38req/s] [内存消耗：246.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:37:39+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html
+[运行时间：0.021550s] [吞吐率：46.40req/s] [内存消耗：170.30kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:37:40+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.7541671190885897
+[运行时间：0.009653s] [吞吐率：103.59req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.7541671190885897',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:37:41+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.05986367436019524
+[运行时间：0.010003s] [吞吐率：99.97req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.05986367436019524',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:37:41+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.11010906959266631
+[运行时间：0.009662s] [吞吐率：103.50req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.11010906959266631',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:37:41+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.10865331101308429
+[运行时间：0.008523s] [吞吐率：117.33req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.10865331101308429',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:37:41+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.08510828863839759
+[运行时间：0.014677s] [吞吐率：68.13req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.08510828863839759',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:37:42+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.3617245343064155
+[运行时间：0.009367s] [吞吐率：106.76req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.3617245343064155',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:37:42+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.7917196173190548
+[运行时间：0.017925s] [吞吐率：55.79req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.7917196173190548',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:37:42+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.751213113995747
+[运行时间：0.009280s] [吞吐率：107.76req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.751213113995747',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:37:42+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.5122858927435201
+[运行时间：0.009499s] [吞吐率：105.27req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.5122858927435201',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:37:43+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.3362118105786749
+[运行时间：0.008347s] [吞吐率：119.80req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.3362118105786749',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:38:49+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/note.html
+[运行时间：0.013402s] [吞吐率：74.62req/s] [内存消耗：246.23kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->note[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\note\register.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:38:49+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html
+[运行时间：0.016333s] [吞吐率：61.23req/s] [内存消耗：170.30kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/note.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:41:25+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/note.html
+[运行时间：0.008867s] [吞吐率：112.78req/s] [内存消耗：246.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->note[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\note\register.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:41:25+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html
+[运行时间：0.018096s] [吞吐率：55.26req/s] [内存消耗：170.30kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/note.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:44:39+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.009449s] [吞吐率：105.83req/s] [内存消耗：286.20kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/note.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:44:42+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.019689s] [吞吐率：50.79req/s] [内存消耗：286.20kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:44:43+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.016875s] [吞吐率：59.26req/s] [内存消耗：286.20kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:44:44+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.006212s] [吞吐率：160.98req/s] [内存消耗：286.20kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:44:44+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.019989s] [吞吐率：50.03req/s] [内存消耗：286.20kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:44:45+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.009980s] [吞吐率：100.20req/s] [内存消耗：286.20kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:44:45+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.014280s] [吞吐率：70.03req/s] [内存消耗：286.20kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:51:03+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.023870s] [吞吐率：41.89req/s] [内存消耗：286.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:53:14+08:00 ] 127.0.0.1 GET www.xiaomi.com/static/image/banner2.jp
+[运行时间：0.029705s] [吞吐率：33.66req/s] [内存消耗：151.86kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'banner2.jp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/static/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:53:14+08:00 ] 127.0.0.1 GET www.xiaomi.com/static/image/banner2.j
+[运行时间：0.010689s] [吞吐率：93.55req/s] [内存消耗：151.86kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'banner2.j',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/static/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:53:14+08:00 ] 127.0.0.1 GET www.xiaomi.com/static/image/banner2.
+[运行时间：0.010680s] [吞吐率：93.63req/s] [内存消耗：151.85kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'banner2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/static/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:53:14+08:00 ] 127.0.0.1 GET www.xiaomi.com/static/image/banner2
+[运行时间：0.011193s] [吞吐率：89.34req/s] [内存消耗：151.85kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'banner2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/static/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:53:14+08:00 ] 127.0.0.1 GET www.xiaomi.com/static/image/banner
+[运行时间：0.010234s] [吞吐率：97.71req/s] [内存消耗：151.85kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'banner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/static/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:53:14+08:00 ] 127.0.0.1 GET www.xiaomi.com/static/image/banne
+[运行时间：0.009531s] [吞吐率：104.92req/s] [内存消耗：151.82kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'banne',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/static/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:53:15+08:00 ] 127.0.0.1 GET www.xiaomi.com/static/image/bann
+[运行时间：0.010022s] [吞吐率：99.78req/s] [内存消耗：151.82kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'bann',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/static/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:53:15+08:00 ] 127.0.0.1 GET www.xiaomi.com/static/image/ban
+[运行时间：0.010068s] [吞吐率：99.33req/s] [内存消耗：151.82kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'ban',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/static/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:53:15+08:00 ] 127.0.0.1 GET www.xiaomi.com/static/image/ba
+[运行时间：0.009562s] [吞吐率：104.58req/s] [内存消耗：151.81kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'ba',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/static/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:53:15+08:00 ] 127.0.0.1 GET www.xiaomi.com/static/image/b
+[运行时间：0.012717s] [吞吐率：78.63req/s] [内存消耗：151.81kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'b',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/static/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:57:04+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.014516s] [吞吐率：68.89req/s] [内存消耗：286.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:57:09+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.020772s] [吞吐率：48.14req/s] [内存消耗：286.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:58:04+08:00 ] 127.0.0.1 GET www.xiaomi.com/static/image/banner1.jpg
+[运行时间：0.017373s] [吞吐率：57.56req/s] [内存消耗：151.87kb] [文件加载：35]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'banner1.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/static/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T18:58:17+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.012521s] [吞吐率：79.87req/s] [内存消耗：286.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T19:15:52+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.088746s] [吞吐率：11.27req/s] [内存消耗：355.73kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T19:30:36+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.018067s] [吞吐率：55.35req/s] [内存消耗：286.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:02:55+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/index.html
+[运行时间：0.018147s] [吞吐率：55.11req/s] [内存消耗：286.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:40+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/deng.html
+[运行时间：0.018191s] [吞吐率：54.97req/s] [内存消耗：246.62kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:40+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html
+[运行时间：0.064963s] [吞吐率：15.39req/s] [内存消耗：171.52kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:45+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.008466s] [吞吐率：118.12req/s] [内存消耗：249.59kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '38',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'er\'t\'h',
+  'ajpass' => 'erth ',
+  'ajcode' => 'erth',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:45+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.0322148203069641
+[运行时间：0.012846s] [吞吐率：77.85req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.0322148203069641',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:47+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.009078s] [吞吐率：110.16req/s] [内存消耗：248.51kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'er\'t\'h',
+  'ajpass' => 'erth ',
+  'ajcode' => 'trhrth',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:47+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.9800207129144878
+[运行时间：0.013262s] [吞吐率：75.40req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.9800207129144878',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:49+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.005231s] [吞吐率：191.17req/s] [内存消耗：248.51kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '41',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'er\'t\'h',
+  'ajpass' => 'erth ',
+  'ajcode' => 'erthert',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:49+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.7742642410663543
+[运行时间：0.009832s] [吞吐率：101.71req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.7742642410663543',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:51+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.004993s] [吞吐率：200.28req/s] [内存消耗：248.54kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'er\'t\'h',
+  'ajpass' => 'erth ',
+  'ajcode' => 'erthdfgbgdfgh',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:51+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.962993239202053
+[运行时间：0.017504s] [吞吐率：57.13req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.962993239202053',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:53+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.005671s] [吞吐率：176.33req/s] [内存消耗：248.51kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'er\'t\'h',
+  'ajpass' => 'erth ',
+  'ajcode' => 'drthdtyh',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:53+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.2783829532356026
+[运行时间：0.013480s] [吞吐率：74.18req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.2783829532356026',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:54+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.004798s] [吞吐率：208.41req/s] [内存消耗：248.51kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '41',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'er\'t\'h',
+  'ajpass' => 'erth ',
+  'ajcode' => 'erthtyh',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:54+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.35037075376588933
+[运行时间：0.012162s] [吞吐率：82.22req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.35037075376588933',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:56+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.005259s] [吞吐率：190.15req/s] [内存消耗：248.49kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'er\'t\'h',
+  'ajpass' => 'erth ',
+  'ajcode' => 'dhtyh',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:56+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.5601093254929554
+[运行时间：0.013057s] [吞吐率：76.59req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.5601093254929554',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:57+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.009542s] [吞吐率：104.80req/s] [内存消耗：248.51kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '41',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'er\'t\'h',
+  'ajpass' => 'erth ',
+  'ajcode' => 'dfyhtyj',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:57+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.5084250369017771
+[运行时间：0.020026s] [吞吐率：49.93req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.5084250369017771',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:59+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.005863s] [吞吐率：170.56req/s] [内存消耗：248.51kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '41',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'er\'t\'h',
+  'ajpass' => 'erth ',
+  'ajcode' => 'dfhdtyh',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:03:59+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.052630186172543114
+[运行时间：0.008791s] [吞吐率：113.75req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.052630186172543114',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:04:00+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.5505379455303299
+[运行时间：0.008851s] [吞吐率：112.98req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.5505379455303299',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:04:00+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.00616115336497014
+[运行时间：0.009208s] [吞吐率：108.60req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.00616115336497014',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:04:08+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.068016s] [吞吐率：14.70req/s] [内存消耗：593.99kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'er\'t\'h',
+  'ajpass' => 'erth ',
+  'ajcode' => '4agu3',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001912s ] mysql:host=127.0.0.1;dbname=backstagelibrary;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brary_note` [ RunTime:0.016381s ]
+[ sql ] [ SQL ] SELECT * FROM `brary_note` WHERE  `username` = 'er\'t\'h' [ RunTime:0.005395s ]
+[ sql ] [ SQL ] SELECT * FROM `brary_note` WHERE  `username` = 'er\'t\'h'  AND `password` = 'b3eff73d349094ab0c92d0c891cc37a3' [ RunTime:0.000689s ]
+---------------------------------------------------------------
+[ 2020-09-02T20:04:09+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.004800s] [吞吐率：208.33req/s] [内存消耗：247.53kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'er\'t\'h',
+  'ajpass' => 'erth ',
+  'ajcode' => '4agu3',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:04:09+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.5558623090318071
+[运行时间：0.008883s] [吞吐率：112.57req/s] [内存消耗：170.21kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.5558623090318071',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:18:18+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/deng.html
+[运行时间：0.013489s] [吞吐率：74.13req/s] [内存消耗：246.87kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:18:18+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html
+[运行时间：0.018020s] [吞吐率：55.49req/s] [内存消耗：170.30kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:18:29+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/deng.html
+[运行时间：0.013124s] [吞吐率：76.20req/s] [内存消耗：246.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:18:29+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html
+[运行时间：0.064976s] [吞吐率：15.39req/s] [内存消耗：170.30kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:18:38+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/deng.html
+[运行时间：0.011015s] [吞吐率：90.79req/s] [内存消耗：246.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:18:39+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html
+[运行时间：0.038274s] [吞吐率：26.13req/s] [内存消耗：170.30kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:19:26+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/deng.html
+[运行时间：0.015034s] [吞吐率：66.52req/s] [内存消耗：246.87kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:19:26+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html
+[运行时间：0.018809s] [吞吐率：53.17req/s] [内存消耗：170.30kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:19:34+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/deng.html
+[运行时间：0.013165s] [吞吐率：75.96req/s] [内存消耗：246.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:19:34+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html
+[运行时间：0.027592s] [吞吐率：36.24req/s] [内存消耗：170.30kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:20+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.6463521093493656
+[运行时间：0.011334s] [吞吐率：88.23req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.6463521093493656',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:20+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.522497128841793
+[运行时间：0.009116s] [吞吐率：109.70req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.522497128841793',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:22+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.11757233677078993
+[运行时间：0.011450s] [吞吐率：87.34req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.11757233677078993',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:30+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.009889s] [吞吐率：101.12req/s] [内存消耗：248.49kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'wetb',
+  'ajpass' => 'srtbert',
+  'ajcode' => 'ymxbt',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:30+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.276090129029378
+[运行时间：0.012485s] [吞吐率：80.10req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.276090129029378',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:32+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.026977821422002446
+[运行时间：0.008820s] [吞吐率：113.38req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.026977821422002446',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:33+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.17617421474315598
+[运行时间：0.008859s] [吞吐率：112.88req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.17617421474315598',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:34+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.24541045219468827
+[运行时间：0.012247s] [吞吐率：81.65req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.24541045219468827',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:35+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.47818057687433524
+[运行时间：0.015360s] [吞吐率：65.10req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.47818057687433524',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:36+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.9280460668623924
+[运行时间：0.019511s] [吞吐率：51.25req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.9280460668623924',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:44+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.005559s] [吞吐率：179.89req/s] [内存消耗：248.49kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'wetb',
+  'ajpass' => 'srtbert',
+  'ajcode' => 'suwe7',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:44+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.8651002992575827
+[运行时间：0.010936s] [吞吐率：91.44req/s] [内存消耗：170.37kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.8651002992575827',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:50+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.018558s] [吞吐率：53.89req/s] [内存消耗：463.80kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'wetb',
+  'ajpass' => 'srtbert',
+  'ajcode' => 'fj35h',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001097s ] mysql:host=127.0.0.1;dbname=backstagelibrary;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brary_note` [ RunTime:0.007725s ]
+[ sql ] [ SQL ] SELECT * FROM `brary_note` WHERE  `username` = 'wetb' [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `brary_note` WHERE  `username` = 'wetb'  AND `password` = '473af177ccf8da028dc2644ff6b8655b' [ RunTime:0.000553s ]
+---------------------------------------------------------------
+[ 2020-09-02T20:22:51+08:00 ] 127.0.0.1 POST www.xiaomi.com/index/index/deng
+[运行时间：0.006257s] [吞吐率：159.83req/s] [内存消耗：247.53kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://www.xiaomi.com',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'ajname' => 'wetb',
+  'ajpass' => 'srtbert',
+  'ajcode' => 'fj35h',
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:51+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html?rand=0.20085728332947994
+[运行时间：0.012271s] [吞吐率：81.49req/s] [内存消耗：170.21kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.20085728332947994',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:59+08:00 ] 127.0.0.1 GET www.xiaomi.com/index/index/deng.html
+[运行时间：0.013212s] [吞吐率：75.69req/s] [内存消耗：246.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'deng',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://www.xiaomi.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->deng[ D:\wamp64\www\xiaomi\git\state\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\xiaomi\git\state\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-02T20:22:59+08:00 ] 127.0.0.1 GET www.xiaomi.com/captcha.html
+[运行时间：0.022139s] [吞吐率：45.17req/s] [内存消耗：170.30kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\xiaomi\git\state\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xiaomi.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.xiaomi.com/index/index/deng.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=gcdbt86kda6vj8mf088sakppr3; uLocale=zh_CN; cUserId=LqNN9yWgb9JFrZ5WQMZFYMTpZxI',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\xiaomi\git\state\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

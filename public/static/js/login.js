@@ -1,3 +1,8 @@
+/*
+ * 作者：陈欢
+ * 审：李昊枕
+ * 时间：2020-09-01
+ */
 //登录ajax提交
 $('#denglu').click(function () {
     var naDname = $('#naDname').val();
@@ -39,8 +44,11 @@ $('#denglu').click(function () {
                 $("#vicode").val('');	//验证码清空
                 $(".tinVso").click();	//验证码图刷新
                 sioxn();
-            }else {
-                $("#text").text(tesr.data);
+            }else if(tesr.code == 1){
+                alert(tesr.data);
+                setTimeout(function () {
+                	window.location.href = "/index/index/index";
+            	}, 1000)
             }
         }
     })
