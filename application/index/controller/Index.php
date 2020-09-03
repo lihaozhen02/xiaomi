@@ -53,7 +53,7 @@
     			    }else if(empty($res2)){
     			        return Json(['code' => -2 , 'data' => '用户名或密码不正确，请重新输入']);    //用户名或密码不正确，请重新输入
     			    }else{
-    			        Session('phone',$naDuser);      //写入seesion
+    			        session('phone',$naDuser);      //写入seesion
     			        return Json(['code' => 1 , 'data' => '登录成功！']);   //登录成功！
     			    }
     			}
