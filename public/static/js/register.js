@@ -65,7 +65,7 @@ function pancll(){
         fuant('.shou','red','.tp3');
         return false;
     }else if(!myreg.test(naDtel)){
-        $(".shou").text('手机号格式不正确');
+        $(".shou").text('手机号格式为：[字符长度11位]');
         fuant('.shou','red','.tp3');
         return false;
     }else{
