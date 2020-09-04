@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:80:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html";i:1599185059;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:80:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html";i:1599189603;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -18,7 +18,7 @@
 			<div class="top center">
 				<div class="left fl">
 					<ul>
-						<li><a href="http://www.mi.com/" >小米商城</a></li>
+						<li><a href="<?php echo url('/index/index/index'); ?>" >小米商城</a></li>
 						<li>|</li>
 						<li><a href="">MIUI</a></li>
 						<li>|</li>
@@ -41,7 +41,7 @@
 					</ul>
 				</div>
 				<div class="right fr">
-					<div class="gouwuche fr"><a href="<?php echo url('index/head/shopping'); ?>">购物车</a></div>
+					<div class="gouwuche fr"><a href="<?php echo url('index/ornet/sureorder'); ?>">购物车</a></div>
 					<div class="fr">
 						<ul>
 							<li><a href="<?php echo url('/index/index/deng'); ?>" >登录</a></li>

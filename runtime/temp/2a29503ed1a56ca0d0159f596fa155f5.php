@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:82:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\liebiao.html";i:1598838797;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:82:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\liebiao.html";i:1599189426;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -36,7 +36,7 @@
 					</ul>
 				</div>
 				<div class="right fr">
-					<div class="gouwuche fr"><a href="">购物车</a></div>
+					<div class="gouwuche fr"><a href="<?php echo url('index/head/shopping'); ?>">购物车</a></div>
 					<div class="fr">
 						<ul>
 							<li><a href="<?php echo url('/index/index/deng'); ?>" >登录</a></li>
