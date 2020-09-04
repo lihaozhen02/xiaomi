@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\self_info.html";i:1599186872;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -35,16 +36,16 @@
 					</ul>
 				</div>
 				<div class="right fr">
-					<div class="gouwuche fr"><a href="{:url('index/head/order')}">我的订单</a></div>
+					<div class="gouwuche fr"><a href="<?php echo url('index/head/order'); ?>">我的订单</a></div>
 					<div class="fr">
 						<ul>
-							<li><a href="{:url('index/index/deng')}" >登录</a></li>
+							<li><a href="<?php echo url('index/index/deng'); ?>" >登录</a></li>
 							<li>|</li>
-							<li><a href="{:url('index/index/note')}" >注册</a></li>
+							<li><a href="<?php echo url('index/index/note'); ?>" >注册</a></li>
 							<li>|</li>
 							<li><a href="javascript:">个人中心</a></li>
 							<li><a href="javascript:">消息通知</a></li>
-							<li><a href="{:url('index/head/order')}">订单</a></li>
+							<li><a href="<?php echo url('index/head/order'); ?>">订单</a></li>
 						</ul>
 					</div>
 					<div class="clear"></div>
@@ -55,7 +56,7 @@
 	<!--end header -->
 	<!-- start banner_x -->
 		<div class="banner_x center">
-			<a href="{:url('index/index/index')}" ><div class="logo fl"></div></a>
+			<a href="<?php echo url('index/index/index'); ?>" ><div class="logo fl"></div></a>
 			<a href=""><div class="ad_top fl"></div></a>
 			<div class="nav fl">
 				<ul>
@@ -91,7 +92,7 @@
 			<div class="ddzx">订单中心</div>
 			<div class="subddzx">
 				<ul>
-					<li><a href="{:url('index/head/order')}" >我的订单</a></li>
+					<li><a href="<?php echo url('index/head/order'); ?>" >我的订单</a></li>
 					<li><a href="">意外保</a></li>
 					<li><a href="">团购订单</a></li>
 					<li><a href="">评价晒单</a></li>

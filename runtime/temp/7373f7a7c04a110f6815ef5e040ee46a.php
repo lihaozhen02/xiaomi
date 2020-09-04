@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:80:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html";i:1599099667;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:80:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html";i:1599185059;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -18,7 +18,7 @@
 			<div class="top center">
 				<div class="left fl">
 					<ul>
-						<li><a href="http://www.mi.com/" target="_blank">小米商城</a></li>
+						<li><a href="http://www.mi.com/" >小米商城</a></li>
 						<li>|</li>
 						<li><a href="">MIUI</a></li>
 						<li>|</li>
@@ -41,14 +41,16 @@
 					</ul>
 				</div>
 				<div class="right fr">
-					<div class="gouwuche fr"><a href="">购物车</a></div>
+					<div class="gouwuche fr"><a href="<?php echo url('index/head/shopping'); ?>">购物车</a></div>
 					<div class="fr">
 						<ul>
 							<li><a href="<?php echo url('/index/index/deng'); ?>" >登录</a></li>
 							<li>|</li>
 							<li><a href="<?php echo url('/index/index/note'); ?>" >注册</a></li>
 							<li>|</li>
+							<li><a href="<?php echo url('/index/head/selfInfo'); ?>">个人中心</a></li> <!-- 临时添加[个人中心] -->
 							<li><a href="">消息通知</a></li>
+							<li><a href="<?php echo url('/index/head/order'); ?>">订单</a></li> <!-- 临时添加[订单] -->
 						</ul>
 					</div>
 					<div class="clear"></div>
@@ -107,7 +109,7 @@
 											<div class="clear"></div>
 										</a>
 									</div>
-									<div class="xuangou_right fr"><a href="./xiangqing.html" target="_blank">选购</a></div>
+									<div class="xuangou_right fr"><a href="<?php echo url('index/head/xiangqing'); ?>" >选购</a></div>
 									<div class="clear"></div>
 								</div>
 								<div>

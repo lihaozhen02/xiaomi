@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:90:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\dingdanzhongxin.html";i:1599186833;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -12,7 +13,7 @@
 			<div class="top center">
 				<div class="left fl">
 					<ul>
-						<li><a href="http://www.mi.com/" >小米商城</a></li>
+						<li><a href="<?php echo url('index/index/index'); ?>" >小米商城</a></li>
 						<li>|</li>
 						<li><a href="">MIUI</a></li>
 						<li>|</li>
@@ -35,16 +36,16 @@
 					</ul>
 				</div>
 				<div class="right fr">
-					<div class="gouwuche fr"><a href="{:url('index/head/order')}">我的订单</a></div>
+					<div class="gouwuche fr"><a href="">我的订单</a></div>
 					<div class="fr">
 						<ul>
-							<li><a href="{:url('index/index/deng')}" >登录</a></li>
+							<li><a href="<?php echo url('index/index/deng'); ?>" >登录</a></li>
 							<li>|</li>
-							<li><a href="{:url('index/index/note')}" >注册</a></li>
+							<li><a href="<?php echo url('index/index/note'); ?>" >注册</a></li>
 							<li>|</li>
-							<li><a href="javascript:">个人中心</a></li>
+							<li><a href="<?php echo url('index/head/selfInfo'); ?>">个人中心</a></li>
 							<li><a href="javascript:">消息通知</a></li>
-							<li><a href="{:url('index/head/order')}">订单</a></li>
+							<li><a href="javascript:">订单</a></li>
 						</ul>
 					</div>
 					<div class="clear"></div>
@@ -55,7 +56,7 @@
 	<!--end header -->
 	<!-- start banner_x -->
 		<div class="banner_x center">
-			<a href="{:url('index/index/index')}" ><div class="logo fl"></div></a>
+			<a href="<?php echo url('index/index/index'); ?>" ><div class="logo fl"></div></a>
 			<a href=""><div class="ad_top fl"></div></a>
 			<div class="nav fl">
 				<ul>
@@ -91,7 +92,7 @@
 			<div class="ddzx">订单中心</div>
 			<div class="subddzx">
 				<ul>
-					<li><a href="{:url('index/head/order')}" >我的订单</a></li>
+					<li><a href="javascript:" style="color:#ff6700;font-weight:bold;">我的订单</a></li>
 					<li><a href="">意外保</a></li>
 					<li><a href="">团购订单</a></li>
 					<li><a href="">评价晒单</a></li>
@@ -100,7 +101,7 @@
 			<div class="ddzx">个人中心</div>
 			<div class="subddzx">
 				<ul>
-					<li><a href="javascript:" style="color:#ff6700;font-weight:bold;">我的个人中心</a></li>
+					<li><a href="<?php echo url('/index/head/selfInfo'); ?>">我的个人中心</a></li>
 					<li><a href="">消息通知</a></li>
 					<li><a href="">优惠券</a></li>
 					<li><a href="">收货地址</a></li>
@@ -108,14 +109,35 @@
 			</div>
 		</div>
 		<div class="rtcont fr">
-			<div class="grzlbt ml40">我的资料</div>
-			<div class="subgrzl ml40"><span>昵称</span><span>啦啦维吉尔</span><span><a href="">编辑</a></span></div>
-			<div class="subgrzl ml40"><span>手机号</span><span>15669097417</span><span><a href="">编辑</a></span></div>
-			<div class="subgrzl ml40"><span>密码</span><span>************</span><span><a href="">编辑</a></span></div>
-			<div class="subgrzl ml40"><span>个性签名</span><span>一支穿云箭，千军万马来相见！</span><span><a href="">编辑</a></span></div>
-			<div class="subgrzl ml40"><span>我的爱好</span><span>游戏，音乐，旅游，健身</span><span><a href="">编辑</a></span></div>
-			<div class="subgrzl ml40"><span>收货地址</span><span>浙江省杭州市江干区19号大街571号</span><span><a href="">编辑</a></span></div>
-			
+			<div class="ddzxbt">交易订单</div>
+			<div class="ddxq">
+				<div class="ddspt fl"><img src="/static/image/gwc_xiaomi6.jpg" alt=""></div>
+				<div class="ddbh fl">订单号:1705205643098724</div>
+				<div class="ztxx fr">
+					<ul>
+						<li>已发货</li>
+						<li>￥2499.00</li>
+						<li>2017/05/20 13:30</li>
+						<li><a href="">订单详情></a></li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="ddxq">
+				<div class="ddspt fl"><img src="/static/image/liebiao_hongmin4_dd.jpg" alt=""></div>
+				<div class="ddbh fl">订单号:170526435444865</div>
+				<div class="ztxx fr">
+					<ul>
+						<li>已发货</li>
+						<li>￥1999.00</li>
+						<li>2017/05/26 14:02</li>
+						<li><a href="">订单详情></a></li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
 		</div>
 		<div class="clear"></div>
 		</div>

@@ -16,4 +16,22 @@ class Head extends Controller
     {
         return $this->fetch('index/xiangqing');
     }
+    
+    //个人中心页面
+    public function selfInfo()
+    {
+        return $this->fetch('index/self_info');
+    }
+    
+    //订单页面
+    public function order()
+    {
+        return $this->fetch('index/dingdanzhongxin');
+    }
+    
+    //购物车页面
+    public function shopping()
+    {
+        return $this->fetch('index/gouwuche');
+    }
 }

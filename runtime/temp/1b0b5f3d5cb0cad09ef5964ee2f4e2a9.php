@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:83:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\gouwuche.html";i:1599187161;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -12,15 +13,15 @@
 
 <!-- start banner_x -->
 		<div class="banner_x center">
-			<a href="{:url('index/index/index')}"><div class="logo fl"></div></a>
+			<a href="<?php echo url('index/index/index'); ?>"><div class="logo fl"></div></a>
 			
 			<div class="wdgwc fl ml40">我的购物车</div>
 			<div class="wxts fl ml20">温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</div>
 			<div class="dlzc fr">
 				<ul>
-					<li><a href="{:url('index/index/deng')}">登录</a></li>
+					<li><a href="<?php echo url('index/index/deng'); ?>">登录</a></li>
 					<li>|</li>
-					<li><a href="{:url('index/index/note')}">注册</a></li>	
+					<li><a href="<?php echo url('index/index/note'); ?>">注册</a></li>	
 				</ul>
 				
 			</div>
@@ -72,7 +73,7 @@
 			<div class="jiesuandan mt20 center">
 				<div class="tishi fl ml20">
 					<ul>
-						<li><a href="{:url('index/head/liebiao')}">继续购物</a></li>
+						<li><a href="<?php echo url('index/head/liebiao'); ?>">继续购物</a></li>
 						<li>|</li>
 						<li>共<span>2</span>件商品，已选择<span>1</span>件</li>
 						<div class="clear"></div>
