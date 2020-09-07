@@ -24,8 +24,6 @@
         {   
             $phone = Session::get('phone');
             
-            $this->assign('phone',$phone);
-            
             $operate = [
                 "$phone" => url('index/deng'),
                 "个人中心" => url('index/deng'),

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:90:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\dingdanzhongxin.html";i:1599186833;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:90:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\dingdanzhongxin.html";i:1599442947;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -38,15 +38,7 @@
 				<div class="right fr">
 					<div class="gouwuche fr"><a href="">我的订单</a></div>
 					<div class="fr">
-						<ul>
-							<li><a href="<?php echo url('index/index/deng'); ?>" >登录</a></li>
-							<li>|</li>
-							<li><a href="<?php echo url('index/index/note'); ?>" >注册</a></li>
-							<li>|</li>
-							<li><a href="<?php echo url('index/head/selfInfo'); ?>">个人中心</a></li>
-							<li><a href="javascript:">消息通知</a></li>
-							<li><a href="javascript:">订单</a></li>
-						</ul>
+						<?php echo $yilog; ?>
 					</div>
 					<div class="clear"></div>
 				</div>
