@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:80:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html";i:1599287934;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:80:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html";i:1599468494;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -39,7 +39,7 @@
 					</ul>
 				</div>
 				<div class="right fr">
-					<div class="gouwuche fr"><a href="<?php echo url('index/ornet/sureorder'); ?>">购物车</a></div>
+					<div class="gouwuche fr"><a href="<?php echo url('index/head/shopping'); ?>">购物车</a></div>
 					<div class="fr">
 						<?php echo $yilog; ?>
 					</div>

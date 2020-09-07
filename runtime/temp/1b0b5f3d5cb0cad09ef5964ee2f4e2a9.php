@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:83:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\gouwuche.html";i:1599187161;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:83:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\gouwuche.html";i:1599442954;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -18,12 +18,7 @@
 			<div class="wdgwc fl ml40">我的购物车</div>
 			<div class="wxts fl ml20">温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</div>
 			<div class="dlzc fr">
-				<ul>
-					<li><a href="<?php echo url('index/index/deng'); ?>">登录</a></li>
-					<li>|</li>
-					<li><a href="<?php echo url('index/index/note'); ?>">注册</a></li>	
-				</ul>
-				
+				<?php echo $yilog; ?>
 			</div>
 			<div class="clear"></div>
 		</div>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\xiangqing.html";i:1599442942;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\xiangqing.html";i:1599470489;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,6 +6,7 @@
         <meta name="author" content="order by dede58.com"/>
 		<title>小米6立即购买-小米商城</title>
 		<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+		<script src="/static/js/jquery-3.4.1.min.js"></script>
 	</head>
 	<body>
 	<!-- start header -->
@@ -144,7 +145,7 @@
 				<div class="bot mt20 ft20 ftbc">总计：2499元</div>
 			</div>
 			<div class="xiadan ml20 mt20">
-					<input class="jrgwc"  type="button" name="jrgwc" value="立即选购" />
+					<input class="jrgwc"  type="button" name="jrgwc" id="makeorder" value="立即选购" />
 					<input class="jrgwc" type="button" name="jrgwc" value="加入购物车" />
 				
 			</div>
@@ -155,11 +156,11 @@
 	<!-- footer -->
 	<footer class="mt20 center">
 			
-			<div class="mt20">小米商城|MIUI|米聊|多看书城|小米路由器|视频电话|小米天猫店|小米淘宝直营店|小米网盟|小米移动|隐私政策|Select Region</div>
-			<div>©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号</div> 
-			<div>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</div>
+		<div class="mt20">小米商城|MIUI|米聊|多看书城|小米路由器|视频电话|小米天猫店|小米淘宝直营店|小米网盟|小米移动|隐私政策|Select Region</div>
+		<div>©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号</div> 
+		<div>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</div>
 
-		</footer>
-
+	</footer>
+	<script src="/static/js/xiangqing.js"></script>
 	</body>
 </html>

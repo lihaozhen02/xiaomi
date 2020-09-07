@@ -1,7 +1,7 @@
 *{margin: 0;padding: 0;text-decoration: none;list-style-type: none;font-family: Times New Roman;}
 
 img{border:none;}
-a{border:none;text-decoration: none;color:#000;}
+a{border:none;text-decoration: none;color:#000;display:block;}
 .border{border:1px solid red;}
 .center{margin: 0 auto;}
 .w{width: 1226px;margin: 0 auto;}
@@ -261,3 +261,24 @@ height:130px;box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);}
 /* 当下拉内容显示后修改下拉按钮的背景颜色 */
 .dropdown:hover .dropbtn {background-color: #fff;}
 .dropbtn:hover{color:#ff6700;}
+
+
+/* 购物车 */
+.dropdowns{position:relative;display:inline-block; background-color: #fff;left:-190px;}
+.dropbtns {color: #b0b0b0;border: none;cursor: pointer;width: 120px;height: 40px;display:block;position: absolute;
+z-index:999;text-align:center;line-height:2.5;margin-top:-25px;}
+/* .imgt{background: url(/static/imgfan/bottom.png) 0px 0px no-repeat;display:block;width:14px;height:14px;margin:-27px 85px;} */
+/* 下拉内容 (默认隐藏) */
+.dropdown-contents {position: absolute;font-size: 12px;text-align: center;transition-duration:0.5s;margin-top:-190px;background-color: #fff;min-width: 120px;
+height:130px;box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);}
+/* 下拉菜单的链接 */
+.dropdown-contents a {color: #b0b0b0;height:30px;line-height:30px;text-decoration: none;display: block;}
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-contents a:hover {background-color: #f1f1f1;color:#ff6700;}
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdowns:hover .dropdown-contents{transition-duration:'1s';margin-top:15px;}
+.dropdowns:hover{box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);}
+/* .dropbtn:hover .imgt{background: url(/static/imgfan/bottom2.png) 0px 0px no-repeat;display:block;width:14px;height:14px;margin:-27px 85px;} */
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdowns:hover .dropbtns {background-color: #fff;}
+.dropbtns:hover{color:#ff6700;}

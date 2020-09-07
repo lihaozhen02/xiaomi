@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\order\sureorder.html";i:1599190025;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\order\sureorder.html";i:1599470806;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -17,19 +17,14 @@
 			
 			<div class="wdgwc fl ml40">确认订单</div>
 			<div class="dlzc fr">
-				<ul>
-					<li><a href="<?php echo url('index/index/deng'); ?>">登录</a></li>
-					<li>|</li>
-					<li><a href="<?php echo url('index/index/note'); ?>">注册</a></li>	
-				</ul>
-				
+				<?php echo $yilog; ?>
 			</div>
 			<div class="clear"></div>
 		</div>
 		<div class="xiantiao"></div>
 		
-			
-		</div>
+		hello word!
+		<!-- 创建一个div，写内容 -->
 
   
 

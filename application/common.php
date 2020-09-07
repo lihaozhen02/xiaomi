@@ -36,6 +36,27 @@ EOT;
     return $option;
 }
 
+function userdeta($operate = [],$ter){
+    $option = <<<EOT
+    
+            <ul class="antys">
+                <li>|</li>
+                <li class='bnb' ><a href="/index/head/order" >我的订单</a></li>
+           </ul>
+            <div class="dropdowns">
+			  <a class="dropbtns">$ter</a>
+			  <div class="dropdown-contents">
+			    <a href="/index/head/selfInfo">个人中心</a>
+			    <a href="#">评价晒单</a>
+			    <a href="#">我的喜欢</a>
+			    <a href="/index/index/logout">退出登录</a>
+			  </div>
+			</div>
+EOT;
+    
+    return $option;
+}
+
 function weilog(){
     
     $res=<<<EOT
