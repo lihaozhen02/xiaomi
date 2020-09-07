@@ -8,12 +8,40 @@
     
     class Index extends Controller
     {
+        
+        public function text()
+        {
+            return $this->fetch('index/text');
+        }
+        
         //默认进入页面
+        /*
+         *  作者：欧阳磊
+         *  审：李昊枕
+         *  时间：2020-09-07
+         */
         public function index()
         {   
             $phone = Session::get('phone');
             
             $this->assign('phone',$phone);
+            
+            $operate = [
+                "$phone" => url('index/deng'),
+                "个人中心" => url('index/deng'),
+                "退出登录" => url('index/logout')
+            ];
+            
+            $yi=userdetails($operate,$phone);
+            
+            $wei=weilog();
+            
+            if(empty($phone)){
+                $this->assign('yilog',$wei);
+            }else{
+                $this->assign('yilog',$yi);
+            }
+           
             return $this->fetch('index/index');
         }
         
@@ -111,5 +139,17 @@
                 
             }
             return $this->fetch('note/register');
+        }
+        
+        //退出登录
+        /*
+         *  作者：欧阳磊
+         *  审：李昊枕
+         *  时间：2020-09-04
+         */
+        
+        public function logout(){
+            Session::delete('phone');
+            $this->redirect(url('index/index'));
         }
     }

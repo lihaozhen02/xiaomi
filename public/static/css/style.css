@@ -42,13 +42,14 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 .banner_x .nav ul li{float: left;height: 100px;line-height: 100px;}
 .banner_x .nav ul li a{display:inline-block;color: #000;font-size: 16px;padding: 0 10px;}
 .banner_x .nav ul li a:hover{color: rgb(255,103,0); }
+
 .banner_x .search{width: 308px;height: 100px;line-height: 100px;}
 .banner_x .search .text{width: 250px;height:50px;line-height: 50px;font-size: 12px;margin-top: 25px;border:1px solid #ccc;}
-.banner_x .search .text:hover{border-color: #ff6700;}
+.banner_x .search .text:hover{border-color: #a9a6a6;}
 .banner_x .search .text .shuru{border: none;width: 250px;height: 50px;}
-.banner_x .search .submit{width: 50px;height:50px;line-height: 50px;text-align:center;font-size: 12px;margin-top: 25px;border:1px solid #ccc;}
+.banner_x .search .submit{width: 50px;height:50px;line-height: 50px;text-align:center;font-size: 12px;margin-top: 25px;border:1px solid #ccc;border-left:none;outline-color:#ff6700;}
 .banner_x .search .submit .sousuo{letter-spacing:3px;text-align:center;width: 50px;height:50px;border: none;background: none;cursor:pointer;}
-.banner_x .search .submit:hover{border-color: #ff6700;color:#ff6700;} 
+.banner_x .search .submit:hover .sousuo{border-color:#ff6700;background: #ff6700;color:#fff;} 
 /*banner_y*/
 .banner_y{width:1226px;height:460px;background: url('../image/banner2.jpg') no-repeat;}
 .banner_y .nav{width: 234px;height: 460px;background: rgba(105,101,101,.6);}
@@ -240,3 +241,23 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 .grzxbj .selfinfo .rtcont .ddxq .ztxx ul li a:hover{color:#ff6700;}
 /*footer*/
 footer{width: 100%;height: 120px;line-height: 30px;text-align: center;font-size: 12px;background: rgb(250,250,250);padding:30px 0;}
+
+
+.dropdown{position:relative;display:inline-block; background-color: #fff;left:-255px;top:-25px;}
+.dropbtn {background-color: #333333;margin-bottom:10px;color: #b0b0b0;border: none;cursor: pointer;width: 120px;height: 40px;display:block;
+position: absolute;z-index:999;text-align:center;}
+/* .imgt{background: url(/static/imgfan/bottom.png) 0px 0px no-repeat;display:block;width:14px;height:14px;margin:-27px 85px;} */
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {position: absolute;font-size: 12px;text-align: center;transition-duration:0.5s;margin-top:-190px;background-color: #fff;min-width: 120px;
+height:130px;box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);}
+/* 下拉菜单的链接 */
+.dropdown-content a {color: #b0b0b0;height:30px;line-height:30px;text-decoration: none;display: block;}
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {background-color: #f1f1f1;color:#ff6700;}
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content{transition-duration:'1s';margin-top:40px;}
+.dropdown:hover{box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);}
+/* .dropbtn:hover .imgt{background: url(/static/imgfan/bottom2.png) 0px 0px no-repeat;display:block;width:14px;height:14px;margin:-27px 85px;} */
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdown:hover .dropbtn {background-color: #fff;}
+.dropbtn:hover{color:#ff6700;}

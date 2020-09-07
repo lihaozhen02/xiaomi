@@ -1,3 +1,11 @@
+document.onkeydown=function(event){
+    var e = event || window.event || arguments.callee.caller.arguments[0];
+    if(e && e.keyCode==13){ // enter 键
+    	//校验登录
+    	$("#submit").click();
+    }
+};
+
 /*
  * 作者：张佳鹏
  * 审：李昊枕
@@ -26,7 +34,7 @@ function pancll(){
         fuant('.zhang','red','.tp');
         return false;
     }else if(!userp.test(naDuser)){
-        $(".zhang").text("用户名格式为：[数字，字符，或大小写字母]");
+        $(".zhang").text("用户名格式为：[数字，字符，或大小写字母]长度4-8位");
         fuant('.zhang','red','.tp');
         return false;
     }else{

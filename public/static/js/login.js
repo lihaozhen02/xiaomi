@@ -1,3 +1,11 @@
+document.onkeydown=function(event){
+    var e = event || window.event || arguments.callee.caller.arguments[0];
+    if(e && e.keyCode==13){ // enter 键
+    	//校验登录
+    	$("#denglu").click();
+    }
+};
+
 /*
  * 作者：陈欢
  * 审：李昊枕

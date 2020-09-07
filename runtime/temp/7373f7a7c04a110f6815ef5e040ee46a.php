@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:80:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html";i:1599189603;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:80:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\index\index.html";i:1599287934;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -7,18 +7,16 @@
 		<title>小米商城</title>
 		<link rel="stylesheet" type="text/css" href="/static/css/style.css">
 		<script src="/static/js/jquery-3.4.1.min.js"></script>
-		<script src="/static/js/index.js"></script>
+		
 	</head>
 	<body>
 	<!-- start header -->
-	<?php if(!empty($phone)): ?>
-		<?php echo $phone; endif; ?>
 		<header>
 			
 			<div class="top center">
 				<div class="left fl">
 					<ul>
-						<li><a href="<?php echo url('/index/index/index'); ?>" >小米商城</a></li>
+						<li><a href="<?php echo url('/index/index/text'); ?>" >小米商城</a></li>
 						<li>|</li>
 						<li><a href="">MIUI</a></li>
 						<li>|</li>
@@ -43,15 +41,7 @@
 				<div class="right fr">
 					<div class="gouwuche fr"><a href="<?php echo url('index/ornet/sureorder'); ?>">购物车</a></div>
 					<div class="fr">
-						<ul>
-							<li><a href="<?php echo url('/index/index/deng'); ?>" >登录</a></li>
-							<li>|</li>
-							<li><a href="<?php echo url('/index/index/note'); ?>" >注册</a></li>
-							<li>|</li>
-							<li><a href="<?php echo url('/index/head/selfInfo'); ?>">个人中心</a></li> <!-- 临时添加[个人中心] -->
-							<li><a href="">消息通知</a></li>
-							<li><a href="<?php echo url('/index/head/order'); ?>">订单</a></li> <!-- 临时添加[订单] -->
-						</ul>
+						<?php echo $yilog; ?>
 					</div>
 					<div class="clear"></div>
 				</div>
@@ -1539,5 +1529,6 @@
 			<div>©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号</div> 
 			<div>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</div>
 		</footer>
+		<script src="/static/js/index.js"></script>
 	</body>
 </html>

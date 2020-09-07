@@ -2,8 +2,9 @@
 namespace app\index\controller;
 
 use think\Controller;
+use app\index\controller\Base;
 
-class Head extends Controller
+class Head extends Base
 {
     //小米手机页面
     public function liebiao()
