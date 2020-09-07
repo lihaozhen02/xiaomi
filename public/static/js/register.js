@@ -34,7 +34,7 @@ function pancll(){
         fuant('.zhang','red','.tp');
         return false;
     }else if(!userp.test(naDuser)){
-        $(".zhang").text("用户名格式为：[数字，字符，或大小写字母]长度4-8位");
+        $(".zhang").text("用户名格式为：[数字，字符，或大小写字母]");
         fuant('.zhang','red','.tp');
         return false;
     }else{

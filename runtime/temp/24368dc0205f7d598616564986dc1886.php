@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:82:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\note\register.html";i:1599441217;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:82:"D:\wamp64\www\xiaomi\git\state\public/../application/index\view\note\register.html";i:1599441939;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -18,7 +18,7 @@
 					<div class="xian center"></div>
 				</div>
 				<div class="regist_main center">
-					<div class="username">用&nbsp;&nbsp;户&nbsp;&nbsp;名:&nbsp;&nbsp;<input class="shurukuang" type="text" name="username" id="naDuser" autocomplete="off" placeholder="请输入你的用户名" maxlength="8" /><span class="zhang">用户名不要输入汉字</span><div class="tp"></div></div>
+					<div class="username">用&nbsp;&nbsp;户&nbsp;&nbsp;名:&nbsp;&nbsp;<input class="shurukuang" type="text" name="username" id="naDuser" autocomplete="off" placeholder="请输入你的用户名" maxlength="18" /><span class="zhang">用户名不要输入汉字</span><div class="tp"></div></div>
 					<div class="username">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码:&nbsp;&nbsp;<input class="shurukuang" type="password" name="password" id="naDpass" placeholder="请输入你的密码" maxlength="18" /><span class="mi">请输入6 - 18位字符</span><div class="tp1"></div></div>
 					
 					<div class="username">确认密码:&nbsp;&nbsp;<input class="shurukuang" type="password" name="repassword" id="naDpassin" placeholder="请确认你的密码"/><span class="liang">两次密码必须一致哦</span><div class="tp2"></div></div>
