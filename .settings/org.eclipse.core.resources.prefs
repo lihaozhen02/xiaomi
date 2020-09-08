@@ -5,6 +5,7 @@ encoding//application/admin/database.php=UTF-8
 encoding//application/admin/model/NodeModel.php=UTF-8
 encoding//application/admin/model/RoleModel.php=UTF-8
 encoding//application/admin/model/UserModel.php=UTF-8
+encoding//application/admin/model/UserleModel.php=UTF-8
 encoding//application/common.php=UTF-8
 encoding//application/config.php=UTF-8
 encoding//application/database.php=UTF-8
